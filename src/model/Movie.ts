@@ -3,7 +3,7 @@ export interface Movie {
     poster_path: string
     genres: Genre
     overview: string
-    release_date: string 
+    release_date: string
 }
 
 export interface MovieList {
@@ -14,6 +14,7 @@ export interface MovieList {
     genre_ids: number[]
     release_date: string
     genres: string[]
+    overview: string
 }
 
 export interface Genre {
